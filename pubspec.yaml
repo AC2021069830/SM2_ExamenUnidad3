@@ -7,18 +7,20 @@ environment:
   sdk: ">=3.3.0 <4.0.0"
 
 dependencies:
-  data_table_2: ^2.4.2
-  fl_chart: ^0.65.0
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Dependencias del proyecto
+  data_table_2: ^2.4.2
+  fl_chart: ^0.65.0
   flutter_animate: ^4.5.2
   geolocator: ^13.0.2
   google_fonts: ^6.2.1
   image_picker: ^1.1.2
   intl: ^0.20.2
   lottie: ^3.2.0
-  flutter_localizations:
-    sdk: flutter
   firebase_core: ^3.12.1
   firebase_auth: ^5.5.1
   cloud_firestore: ^5.6.5
@@ -34,11 +36,11 @@ dependencies:
   cryptography: ^2.7.0
   flutter_staggered_animations: ^1.1.0
   lucide_icons: ^0.257.0
-  
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^2.0.1  # ✅ Compatible con Dart 3.3.0 - 3.4.1
 
 flutter:
   uses-material-design: true

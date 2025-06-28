@@ -29,3 +29,5 @@ SM2_ExamenUnidad3/
 │   └── test-result.png
 ├── pubspec.yaml
 └── README.md
+![Pruebas](https://github.com/user-attachments/assets/85f76e49-ea66-4200-8c78-b5c9948cf6a2)
+![check](https://github.com/user-attachments/assets/e7fc774f-93b6-40ba-9a00-61c5955d0e72)
